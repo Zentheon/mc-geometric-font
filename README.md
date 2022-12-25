@@ -3,9 +3,11 @@
 
 ## Install
 
+Note: This resourcepack is GUI-scale dependent. Make sure to download the one for the size you play with the most for the best experience!
+
 #### Find your resourcepacks folder
 
-The quickest and easiest way to do this is from in-game.
+To install this pack you need to first find your resourcepack folder. The quickest and easiest way to do this is from in-game.
 
 1. Open up your desired version of Minecraft.
 2. Go into "Options" and then "Resource Packs"
@@ -13,15 +15,15 @@ The quickest and easiest way to do this is from in-game.
 
 #### Download the pack
 
-The easiest way to do this is to clone the repo, if you have Git installed. Open a terminal or commandline in your resourcepacks folder and clone:
+If you're familiar with Git, you can easily set up the pack and have it updated automatically that way. Open a terminal or commandline in your resourcepacks folder and clone the repo. Make sure to replace `gui-scale-4` with your preferred GUI size! (Up to 8)
 
-    git clone https://github.com/Xetheon/mc-geometric-font "Geometric Font"
+    git clone https://github.com/dracula/minecraft -b gui-scale-4 "Geometric Font"
 
-This will also keep the pack up do date automatically. Alternatively, you can download the pack manually by going to any of its release pages.
+Alternatively, you can also download the pack by going to any of its release pages:
 
-- [Github Releases](https://github.com/Xetheon/mc-geometric-font/releases)
-- [Modrinth](https://modrinth.com/resourcepack/geometric-font)
-- [CurseForge](https://www.curseforge.com/minecraft/texture-packs/geometric-font)
+| [![Modrinth](./images/modrinth.png)](https://modrinth.com/resourcepack/geometric-font) | [![Curseforge](./images/curseforge.png)](https://www.curseforge.com/minecraft/texture-packs/geometric-font) | [![Github](./images/github.png)](https://github.com/xetheon/mc-geometric-font/releases) |
+| --- | --- | --- |
+| [Modrinth](https://modrinth.com/resourcepack/geometric-font) | [Curseforge](https://www.curseforge.com/minecraft/texture-packs/geometric-font) | [Github](https://github.com/xetheon/mc-geometric-font/releases) |
 
 ##### If you have any troubles installing, check out the Minecraft Wiki page on [how to install resourcepacks](https://minecraft.fandom.com/wiki/Tutorials/Loading_a_resource_pack).
 
