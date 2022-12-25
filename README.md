@@ -1,4 +1,4 @@
-![Title](./title.png)
+![Title](./images/display.png)
 > A sharp, clean remake of the default mojangles font in full HD
 
 ## Install
