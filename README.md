@@ -1,9 +1,11 @@
 ![Title](./images/display.png)
 > A sharp, clean remake of the default mojangles font in full HD
 
-## Install
+## About
 
-Note: This resourcepack is GUI-scale dependent. Make sure to download the one for the size you play with the most for the best experience!
+This an alternate version of the Geometric Font made in x512 and x1024 resolutions thanks to [fo-od](https://github.com/fo-od)
+
+## Install
 
 #### Find your resourcepacks folder
 
@@ -15,9 +17,9 @@ To install this pack you need to first find your resourcepack folder. The quicke
 
 #### Download the pack
 
-If you're familiar with Git, you can easily set up the pack and have it updated automatically that way. Open a terminal or commandline in your resourcepacks folder and clone the repo. Make sure to replace `gui-scale-4` with your preferred GUI size! (Up to 8)
+If you're familiar with Git, you can easily set up the pack and have it updated automatically that way. Open a terminal or commandline in your resourcepacks folder and clone the repo. Make sure to replace `x512` with `x1024` if you want the higher resolution version!
 
-    git clone https://github.com/dracula/minecraft -b gui-scale-4 "Geometric Font"
+    git clone https://github.com/Xetheon/mc-geometric-font -b x512 "Geometric Font"
 
 Alternatively, you can also download the pack by going to any of its release pages:
 
