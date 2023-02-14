@@ -17,7 +17,7 @@ To install this pack you need to first find your resourcepack folder. The quicke
 
 #### Download the pack
 
-If you're familiar with Git, you can easily set up the pack and have it updated automatically that way. Open a terminal or commandline in your resourcepacks folder and clone the repo. Make sure to replace `x1024` with `x512` if you want the higher resolution version!
+If you're familiar with Git, you can easily set up the pack and have it updated automatically that way. Open a terminal or commandline in your resourcepacks folder and clone the repo. Make sure to replace `x1024` with `x512` if you want the lower resolution version!
 
     git clone https://github.com/Xetheon/mc-geometric-font -b x1024 "Geometric Font"
 
