@@ -1,0 +1,4 @@
+credits
+
+original geometric font by Zetheon#0069
+ported to 1.8.9 by food#0184
