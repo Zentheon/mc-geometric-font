@@ -15,15 +15,13 @@ To install this pack you need to first find your resourcepack folder. The quicke
 
 #### Download the pack
 
-If you're familiar with Git, you can easily set up the pack and have it updated automatically that way. Open a terminal or commandline in your resourcepacks folder and clone the repo. Make sure to replace `gui-scale-4` with your preferred GUI size! (Up to 8)
-
-    git clone https://github.com/dracula/minecraft -b gui-scale-4 "Geometric Font"
-
-Alternatively, you can also download the pack by going to any of its release pages:
+You can find the pack on all these platforms:
 
 | [![Modrinth](./images/modrinth.png)](https://modrinth.com/resourcepack/geometric-font) | [![Curseforge](./images/curseforge.png)](https://www.curseforge.com/minecraft/texture-packs/geometric-font) | [![Github](./images/github.png)](https://github.com/xetheon/mc-geometric-font/releases) |
 | --- | --- | --- |
 | [Modrinth](https://modrinth.com/resourcepack/geometric-font) | [Curseforge](https://www.curseforge.com/minecraft/texture-packs/geometric-font) | [Github](https://github.com/xetheon/mc-geometric-font/releases) |
+
+After downloading the version and GUI size of your choice, simply put the .zip in your resourcepacks folder and enable in-game!
 
 ##### If you have any troubles installing, check out the Minecraft Wiki page on [how to install resourcepacks](https://minecraft.fandom.com/wiki/Tutorials/Loading_a_resource_pack).
 
