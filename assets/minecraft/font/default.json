@@ -1,5 +1,39 @@
 {
+    "caxton_providers": [
+    {
+      "type": "caxton",
+      "regular": {
+        "file": "geofont.otf",
+        "shadow_offset": 0.5
+      },
+      "bold": {
+        "file": "geofont_bold.otf",
+        "shadow_offset": 0.5
+      },
+      "italic": {
+        "file": "geofont_italic.otf",
+        "shadow_offset": 0.5
+      },
+      "bold_italic": {
+        "file": "geofont_bold_italic.otf",
+        "shadow_offset": 0.5
+      }
+    },
+    {
+      "type": "legacy_unicode",
+      "sizes": "minecraft:font/glyph_sizes.bin",
+      "template": "minecraft:font/unicode_page_%s.png"
+    }
+    ],
     "providers": [
+        {
+            "type": "ttf",
+            "file": "minecraft:geofont.otf",
+			"shift": [0, 1.5],
+			"size": 8.0,
+			"oversample": 12.0,
+			"skip": ""
+        },
         {
             "type": "space",
             "advances": {
