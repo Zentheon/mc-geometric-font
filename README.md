@@ -1,5 +1,5 @@
-![Preview](./images/geofont-edge-preview.gif)
-[![Modrinth Badge](./images/modrinth-badge.svg)](https://modrinth.com/resourcepack/geometric-font-edge) [![CurseForge Badge](./images/curseforge-badge.svg)](https://curseforge.com/minecraft/texture-packs/geometric-font-edge) [![Origianl Preview](./images/2-badge.svg)](https://github.com/xetheon/mc-geometric-font/tree/main) [![Legacy Preview](./images/legacy-badge.svg)](https://github.com/xetheon/mc-geometric-font/tree/legacy)
+![Preview](./images/geofont_edge_preview.gif)
+[![Modrinth Badge](./images/modrinth_badge.svg)](https://modrinth.com/resourcepack/geometric-font-edge) [![CurseForge Badge](./images/curseforge_badge.svg)](https://curseforge.com/minecraft/texture-packs/geometric-font-edge) [![Origianl Preview](./images/2_badge.svg)](https://github.com/xetheon/mc-geometric-font/tree/main) [![Legacy Preview](./images/legacy_badge.svg)](https://github.com/xetheon/mc-geometric-font/tree/legacy) [![Caxton Badge](./images/caxton_badge.svg)](https://modrinth.com/mod/caxton)
 
 ## Install
 
