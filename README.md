@@ -1,5 +1,5 @@
-![Preview](./images/preview.png)
-[![Modrinth Badge](./images/modrinth-badge.png)](https://modrinth.com/resourcepack/geometric-font-2/) [![CurseForge Badge](./images/curseforge-badge.png)](www.curseforge.com/minecraft/texture-packs/geometric-font-2) [![Edge Preview](./images/edge-badge.svg)](https://github.com/xetheon/mc-geometric-font/tree/edge) [![Legacy Preview](./images/legacy-badge.png)](https://github.com/xetheon/mc-geometric-font/tree/legacy)
+![Preview](./images/geofont-preview.gif)
+[![Modrinth Badge](./images/modrinth-badge.svg)](https://modrinth.com/resourcepack/geometric-font-2) [![CurseForge Badge](./images/curseforge-badge.svg)](www.curseforge.com/minecraft/texture-packs/geometric-font-2) [![Edge Preview](./images/edge-badge.svg)](https://github.com/xetheon/mc-geometric-font/tree/edge) [![Legacy Preview](./images/legacy-badge.svg)](https://github.com/xetheon/mc-geometric-font/tree/legacy)
 
 ## Install
 
