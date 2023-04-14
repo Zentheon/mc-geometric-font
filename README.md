@@ -1,5 +1,5 @@
-![Preview](./images/geofont-preview.gif)
-[![Modrinth Badge](./images/modrinth-badge.svg)](https://modrinth.com/resourcepack/geometric-font-2) [![CurseForge Badge](./images/curseforge-badge.svg)](https://curseforge.com/minecraft/texture-packs/geometric-font-2) [![Edge Preview](./images/edge-badge.svg)](https://github.com/xetheon/mc-geometric-font/tree/edge) [![Legacy Preview](./images/legacy-badge.svg)](https://github.com/xetheon/mc-geometric-font/tree/legacy)
+![Preview](./images/geofont-edge-preview.gif)
+[![Modrinth Badge](./images/modrinth-badge.svg)](https://modrinth.com/resourcepack/geometric-font-edge) [![CurseForge Badge](./images/curseforge-badge.svg)](https://curseforge.com/minecraft/texture-packs/geometric-font-edge) [![Origianl Preview](./images/2-badge.svg)](https://github.com/xetheon/mc-geometric-font/tree/main) [![Legacy Preview](./images/legacy-badge.svg)](https://github.com/xetheon/mc-geometric-font/tree/legacy)
 
 ## Install
 
@@ -15,11 +15,11 @@ To install this pack you need to first find your resourcepack folder. The quicke
 
 If you're familiar with Git, you can easily set up the pack and have it updated automatically that way. Open a terminal or commandline in your resourcepacks folder and clone the repo.
 
-    git clone https://github.com/dracula/minecraft -b default "Geometric Font"
+    git clone https://github.com/dracula/minecraft -b edge "Geometric Font Edge"
 
 Alternatively, you can also download the pack by going to any of its release pages:
 
-| [![Modrinth](./images/modrinth.png)](https://modrinth.com/resourcepack/geometric-font) | [![Curseforge](./images/curseforge.png)](https://www.curseforge.com/minecraft/texture-packs/geometric-font) | [![Github](./images/github.png)](https://github.com/xetheon/mc-geometric-font/releases) |
+| [![Modrinth](./images/modrinth.png)](https://modrinth.com/resourcepack/geometric-font-edge) | [![Curseforge](./images/curseforge.png)](https://www.curseforge.com/minecraft/texture-packs/geometric-font-edge) | [![Github](./images/github.png)](https://github.com/xetheon/mc-geometric-font/releases) |
 | --- | --- | --- |
 | [Modrinth](https://modrinth.com/resourcepack/geometric-font-2) | [Curseforge](https://www.curseforge.com/minecraft/texture-packs/geometric-font-2) | [Github](https://github.com/xetheon/mc-geometric-font/releases) |
 

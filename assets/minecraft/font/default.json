@@ -3,19 +3,19 @@
     {
       "type": "caxton",
       "regular": {
-        "file": "geofont.otf",
+        "file": "geofont_edge.otf",
         "shadow_offset": 0.5
       },
       "bold": {
-        "file": "geofont_bold.otf",
+        "file": "geofont_edge_bold.otf",
         "shadow_offset": 0.5
       },
       "italic": {
-        "file": "geofont_italic.otf",
+        "file": "geofont_edge_italic.otf",
         "shadow_offset": 0.5
       },
       "bold_italic": {
-        "file": "geofont_bold_italic.otf",
+        "file": "geofont_edge_bold_italic.otf",
         "shadow_offset": 0.5
       }
     },
@@ -28,7 +28,7 @@
     "providers": [
         {
             "type": "ttf",
-            "file": "minecraft:geofont.otf",
+            "file": "minecraft:geofont_edge.otf",
 			"shift": [0, 1.5],
 			"size": 8.0,
 			"oversample": 12.0,
