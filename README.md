@@ -1,5 +1,5 @@
 # **!!! IMPORTANT !!!**
-### ONLY for GUI scale 3!
+### This is a remade version ONLY for GUI scale 3!
 
 ![Title](./images/display.png)
 > A sharp, clean remake of the default mojangles font in full HD
