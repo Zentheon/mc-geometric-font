@@ -34,3 +34,4 @@ After downloading the version and GUI size of your choice, simply put the .zip i
 - Want to use this font in your own works? See the [license](https://github.com/Xetheon/mc-geometric-font/blob/main/LICENSE.md)
 - Curious about updates on things I work on or just want to hang out? Join my [Discord!](https://discord.gg/3gtNAQgv2G)
 - Interested in other packs I've made? Check out [this list!](https://gist.github.com/Xetheon/c3d677e0762658f8d79cf05e2c6e65ff)
+- Special credit to [fo-od](https://github.com/fo-od) for making this version of the pack
