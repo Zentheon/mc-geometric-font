@@ -23,7 +23,7 @@ Alternatively, you can also download the pack by going to any of its release pag
 | --- | --- | --- |
 | [Modrinth](https://modrinth.com/resourcepack/geometric-font-2) | [Curseforge](https://www.curseforge.com/minecraft/texture-packs/geometric-font-2) | [Github](https://github.com/xetheon/mc-geometric-font/releases) |
 
-##### If you have any troubles installing, check out the Minecraft Wiki page on [how to install resourcepacks](https://minecraft.fandom.com/wiki/Tutorials/Loading_a_resource_pack).
+##### If you have any troubles installing, check out the Minecraft Wiki page on [how to install resourcepacks](https://minecraft.wiki/w/Tutorial:Loading_a_resource_pack).
 
 ## Resources
 
