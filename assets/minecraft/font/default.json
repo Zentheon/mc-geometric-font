@@ -1,5 +1,5 @@
 {
-  "providers": [
+  "caxton_providers": [
     {
       "type": "caxton",
       "regular": {
@@ -22,14 +22,15 @@
         "scale_factor": 1.35,
         "shadow_offset": 0.5
       }
-    },
+    }
+  ],
+  "providers": [
     {
       "type": "ttf",
-      "file": "minecraft:geofont.otf",
-      "shift": [0, 0.3],
-      "size": 12.0,
-      "oversample": 24.0,
-      "skip": ""
+      "file": "geofont.ttf",
+      "shift": [0, 0],
+      "size": 10.2,
+      "oversample": 24.2
     },
     {
       "type": "space",
