@@ -22,31 +22,25 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: 'main'
-          sparse-checkout: |
-            assets
-            pack.mcmeta
-            pack.png
 
       - name: Archive Resource Pack
         uses: thedoctor0/zip-release@0.7.5
         with:
           type: 'zip'
           filename: 'geofont-mc-${{ inputs.release_version }}.zip'
+          exclusions: '/.github README.md LICENSE.md images'
 
       - name: Checkout branch (edge)
         uses: actions/checkout@v4
         with:
           ref: 'edge'
-          sparse-checkout: |
-            assets
-            pack.mcmeta
-            pack.png
 
       - name: Archive Resource Pack
         uses: thedoctor0/zip-release@0.7.5
         with:
           type: 'zip'
           filename: 'geofont-edge-mc-${{ inputs.release_version }}.zip'
+          exclusions: 'README.md LICENSE.md images'
 
       - name: Draft Release
         uses: softprops/action-gh-release@v2
