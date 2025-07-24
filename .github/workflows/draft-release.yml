@@ -23,7 +23,7 @@ jobs:
         with:
           ref: 'main'
 
-      - name: Archive Resource Pack
+      - name: Archive Resource Pack (main)
         uses: thedoctor0/zip-release@0.7.5
         with:
           type: 'zip'
@@ -35,7 +35,7 @@ jobs:
         with:
           ref: 'edge'
 
-      - name: Archive Resource Pack
+      - name: Archive Resource Pack (edge)
         uses: thedoctor0/zip-release@0.7.5
         with:
           type: 'zip'
