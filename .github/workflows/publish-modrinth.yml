@@ -1,24 +1,27 @@
 name: Publish Latest Release to Modrinth
 
 on:
-  release:
-    types: [published]
-
-  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
 jobs:
   publish-modrinth:
     runs-on: ubuntu-latest
     steps:
+      - name: Download Packs from Release
+        uses: robinraju/release-downloader@v1
+        with:
+          latest: true
+          fileName: 'geofont-*'
+        
       - name: Publish Geofont to Modrinth
         uses: cloudnode-pro/modrinth-publish@v2
         with:
           token: ${{ secrets.MODRINTH_TOKEN }}
-          project: AABBCCDD
+          project: YNuo4qic
           name: ${{ github.event.release.name }}
           version: ${{ github.event.release.tag_name }}
           changelog: ${{ github.event.release.body }}
+          status: draft
           loaders: minecraft
           game-versions: |-
             1.13.x
@@ -30,7 +33,7 @@ jobs:
             1.19.x
             1.20.x
             1.21.x
-          files: path/to/file.zip
+          files: 'geofont-mc-${{ inputs.release_version }}.zip'
           # Adds Caxton as an optional dependency
           dependencies: |-
             [{
@@ -42,10 +45,11 @@ jobs:
         uses: cloudnode-pro/modrinth-publish@v2
         with:
           token: ${{ secrets.MODRINTH_TOKEN }}
-          project: AABBCCDD
+          project: 8rGGW5Iw
           name: ${{ github.event.release.name }}
           version: ${{ github.event.release.tag_name }}
           changelog: ${{ github.event.release.body }}
+          status: draft
           loaders: minecraft
           game-versions: |-
             1.13.x
@@ -57,7 +61,7 @@ jobs:
             1.19.x
             1.20.x
             1.21.x
-          files: path/to/file.zip
+          files: 'geofont-edge-mc-${{ inputs.release_version }}.zip'
           # Adds Caxton as an optional dependency
           dependencies: |-
             [{
