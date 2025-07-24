@@ -1,0 +1,55 @@
+name: Draft Github Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      release_version:
+        description: 'version for the release (used in tag, title, and resource pack file name)'
+        default: 'v2.x.x'
+        required: true
+        type: string
+      release_desc:
+        description: 'description for the release'
+        default: 'changes were made'
+        required: false
+        type: string
+
+jobs:
+  draft-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout branch (main)
+        uses: actions/checkout@v4
+        with:
+          ref: 'main'
+
+      - name: Archive Resource Pack (main)
+        uses: thedoctor0/zip-release@0.7.5
+        with:
+          type: 'zip'
+          filename: 'geofont-mc-${{ inputs.release_version }}.zip'
+          exclusions: '/.github README.md LICENSE.md images'
+
+      - name: Checkout branch (edge)
+        uses: actions/checkout@v4
+        with:
+          ref: 'edge'
+
+      - name: Archive Resource Pack (edge)
+        uses: thedoctor0/zip-release@0.7.5
+        with:
+          type: 'zip'
+          filename: 'geofont-edge-mc-${{ inputs.release_version }}.zip'
+          exclusions: 'README.md LICENSE.md images'
+
+      - name: Draft Release
+        uses: softprops/action-gh-release@v2
+        with:
+          draft: true
+          name: 'Geofont ${{ inputs.release_version }}'
+          body: ${{ inputs.release_desc }}
+          tag_name: ${{ inputs.release_version }}
+          make_latest: 'true'
+          files: |
+            geofont-mc-${{ inputs.release_version }}.zip
+            geofont-edge-mc-${{ inputs.release_version }}.zip
