@@ -24,7 +24,7 @@ Or, for Edge:
 Alternatively, you can also download the pack by going to any of its release pages:
 
 | [![Modrinth](./images/modrinth.png)](https://modrinth.com/resourcepack/geometric-font-2) | [![Github](./images/github.png)](https://github.com/zentheon/mc-geometric-font/releases) |
-| --- | --- | --- |
+| --- | --- |
 | [Modrinth](https://modrinth.com/resourcepack/geometric-font-2) | [Github](https://github.com/zentheon/mc-geometric-font/releases) |
 
 ##### If you have any troubles installing, check out the Minecraft Wiki page on [how to install resourcepacks](https://minecraft.wiki/w/Tutorial:Loading_a_resource_pack).
